@@ -50,10 +50,7 @@
     transform: scale(1.05);
     transition: 0.3s;
 }
-.aSkills img{
-    width: 5%;
-    height: 5%;
-}
+
 @media(max-width:768px){
 
     .aSkills{
@@ -64,22 +61,14 @@
         font-size: 20px;
     }
     .aSkills-skill hr{
-        height: 70%;
+        height: 55%;
         display: none;
     }
-    .aSkills img{
-        height: 32%;
-        width: 38%;
-        padding-left: 0px;
-        
-    }
+    
     .services-title h1{
         font-size: 40px;
     }
-    .services{
-        display: flex;
-        flex-direction: column;
-        height: 60;
-        
+    .aSkills img{
+        width: 45%;
     }
 }
