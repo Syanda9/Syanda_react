@@ -1,0 +1,80 @@
+.foter{
+    margin: 50px 170px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.fTop{
+    display: flex;
+    justify-content: space-between;
+}
+.fTop-left{
+    font: 20px;
+    max-width:400px;
+}
+.fTop-right{
+    display: flex;
+    align-items:center ;
+    gap:35px;
+}
+.Email{
+    display: flex;
+    gap:30px;
+    padding: 20px 30px;
+    border-radius:50px;
+    background: grey;
+    padding-right: 80px;
+}
+.Email input{
+    outline:none;
+    border:none;
+    background: transparent;
+    color:white;
+    font-family: Outfit;
+    font-size: 18px;
+}
+.subscribe{
+    font-size: 20px;
+    padding: 22px 50px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, orange -5.09%, purple 106.28%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.fBottom{
+    display: flex;
+    justify-content:space-between;
+    font-size: 18px;
+}
+.fBottom-right{
+    display:flex;
+    gap:50px;
+    margin-bottom:50px;
+}
+.Email:hover{
+    border: 2px solid rgb(14, 3, 116);
+}
+.subscribe:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+@media(max-width:768px){
+    .foter{
+        margin: 50px 70px;
+    }
+    .fTop{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .fBottom{
+        display: flex;
+        flex-direction: column-reverse ;
+        margin-bottom: 50px;
+    }
+    .Email{
+        width: 35%;
+    }
+    .subscribe{
+        font-size: 15px;
+    }
+}
