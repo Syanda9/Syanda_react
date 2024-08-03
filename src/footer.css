@@ -72,9 +72,20 @@
         margin-bottom: 50px;
     }
     .Email{
-        width: 35%;
+        width: 30%;
+        height: 8px;
     }
     .subscribe{
+        font-size: 14px;
+        padding: 7px 15px;
+    }
+    .Email input{
+        padding: 1px 15px;
+    }
+    .fBottom-right{
         font-size: 15px;
+    }
+    .fBottom-left{
+        font-size: 13px;
     }
 }

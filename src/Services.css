@@ -4,6 +4,7 @@
     gap:80px;
     margin: 80px 170px;
     padding-top: 140px;
+    overflow-x: hidden;
 } 
 .services-title{
     position: relative;
@@ -54,18 +55,31 @@
     height: 5%;
 }
 @media(max-width:768px){
+
     .aSkills{
         gap: 20px;
-        align-items: center;
+        
     }
     .aSkills p{
         font-size: 20px;
     }
     .aSkills-skill hr{
-        height: 6px;
+        height: 70%;
+        display: none;
     }
     .aSkills img{
-        height: 18%;
-        width: 18%;
+        height: 32%;
+        width: 38%;
+        padding-left: 0px;
+        
+    }
+    .services-title h1{
+        font-size: 40px;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+        height: 60;
+        
     }
 }

@@ -21,19 +21,19 @@ const Service = () =>{
                         <hr style={{width: "50%"}} />
                     </div>
                    <div className="aSkills">
-                          <FontAwesomeIcon icon={faHtml5} size="4x" /> 
+                          <FontAwesomeIcon icon={faHtml5} size="4x" id="FO" /> 
                           <hr style={{width: "60%"}} />
                     </div> 
                     <div className="aSkills">
-                         <FontAwesomeIcon icon={faCss3Alt} size="4x" /> 
+                         <FontAwesomeIcon icon={faCss3Alt} size="4x" id="FO" /> 
                          <hr style={{width: "60%"}} />
                     </div>
                     <div className="aSkills">  
-                        <FontAwesomeIcon icon={faReact} size="4x" /> 
+                        <FontAwesomeIcon icon={faReact} size="4x" id="FO" /> 
                          <hr style={{width: "60%"}} />
                     </div>
                     <div className="aSkills">
-                         <FontAwesomeIcon icon={faJava} size="4x" /> 
+                         <FontAwesomeIcon icon={faJava} size="4x" ID="FO"/> 
                          <hr style={{width: "75%"}} />
                     </div>
                     <div className="aSkills">

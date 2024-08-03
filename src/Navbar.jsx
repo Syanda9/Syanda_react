@@ -18,7 +18,7 @@ const Navbar = () => {
     return (
         <div className='navbar' id="">
           <img src={infinity} alt="" />
-          <FontAwesomeIcon  icon={faBars} onClick={openMenu}  size="4x"  className='nav-mob-open'  />
+          <FontAwesomeIcon  icon={faBars} onClick={openMenu}  size="2x"  className='nav-mob-open'  />
           <ul ref={menuRef} className="nav-menu">
           <FontAwesomeIcon className='nav-mob-close' icon={faTimes} onClick={closeMenu}  size="4x" />
            <li><AnchorLink className='anchor-link' offset={50} href="#Home">Home</AnchorLink></li>
@@ -27,7 +27,7 @@ const Navbar = () => {
            <li><AnchorLink className='anchor-link' offfset={50} href="#Portfolio">Portfolio</AnchorLink></li>
            <li><AnchorLink className='anchor-link' offset={50} href="#Contact">Contact</AnchorLink></li>
           </ul>
-          <div className="nav-connect" ><AnchorLink className='anchor-link' offset={50} href="#Contact" id="AS">Connect With Me</AnchorLink></div>
+          <div className="nav-connect" ><AnchorLink className='anchor-link' offset={50} href="#Contact" id="AS">let's Connect</AnchorLink></div>
         </div>
     )
 

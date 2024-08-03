@@ -4,19 +4,20 @@
     justify-content: space-between;
     margin: 20px 170px;
     position: fixed;
-    background-color: black;
+    background-color: rgb(46, 42, 42);
     z-index: 1000;
-    background: fixed; 
+    overflow-x: hidden;
+    gap: 30px;
 }
 .nav-menu{
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 60px;
+    gap: 80px;
     font-size: 20px;
 }
 #AS{
-    padding: 25px 50px;
+    padding: 15px 21px;
     border-radius: 50px;
     background: linear-gradient(267deg, orange 0.36%, purple 10%);
     font-size: 20px;
@@ -24,6 +25,7 @@
     transition: 0.5s;
     text-decoration: none;
     color: white;
+    
 }
 .nav-connect:hover{
    transform: scale(1.05);
@@ -47,7 +49,7 @@
 }
 .nav-menu a:hover{
     color:blue;
-    transform: scale(2.2)
+    transform: scale(1.05)
 }
 .nav-mob-close{
     display: none;
@@ -55,9 +57,11 @@
 .nav-mob-open{
     display: none;
 }
+
 @media(max-width:768px){
     .navbar{
         margin: 20px 50px;
+        
     }
     .nav-connect{
         display: none;

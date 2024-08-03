@@ -6,6 +6,7 @@
     gap:80px;
     margin: 80px 170px;
     padding-top: 140px;
+    
 }
 .cTitle{
     position: relative;
@@ -109,7 +110,7 @@
     }
     .cTitle h1{
         padding: 0;
-        font-size: 50px;
+        font-size: 35px;
     }
     .cTitle img{
         width: 130px;
@@ -119,7 +120,7 @@
         flex-direction: column;
     }
     .cLeft h1{
-        font-size: 54px;
+        font-size: 32px;
     }
     .cLeft p{
         font-size:18px;
@@ -138,12 +139,19 @@
         font-size: 20px;
     }
     .cRight textarea{
-        width: 95%;
+        width: 80%;
+        height: 190px;
         font-size: 20px;
     }
     .cSubmit{
-        font-size: 20px;
+        font-size: 17px;
         padding: 15px 40px;
+    }
+    .cRight button{
+        padding: 10px 20px;
+    }
+    .cRight input{
+        width: 80%;
     }
     
 }
