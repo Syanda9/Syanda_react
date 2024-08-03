@@ -76,10 +76,5 @@
     .services-title h1{
         font-size: 40px;
     }
-    .services{
-        display: flex;
-        flex-direction: column;
-        height: 60;
-        
-    }
+    
 }
