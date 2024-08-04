@@ -8,3 +8,9 @@ body{
   color: rgb(238, 232, 232);
   overflow-x: hidden;
 }
+
+@media(max-width:768){
+     body{
+      overflow-x: hidden;
+     }  
+}

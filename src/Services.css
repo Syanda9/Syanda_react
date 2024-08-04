@@ -11,8 +11,8 @@
     text-align: center ;
 }
 .services-title h1{
-    padding: 0px 30px;
-    font-size: 80px;
+    padding: 0px 0px;
+    font-size: 50px;
     font-weight: 600;
 }
 .services-title img{
@@ -50,30 +50,43 @@
     transform: scale(1.05);
     transition: 0.3s;
 }
+.aSkills img{
+    
+    height: 70px;
+    height: 70px;
+}
+
 
 @media(max-width:768px){
 
     .aSkills{
-        gap: 20px;
-        
+        font-size: 20px;
+    
     }
     .aSkills p{
         font-size: 20px;
     }
-    .aSkills-skill hr{
-        height: 55%;
+    .aSkills hr{
+        outline: none;
+        border: none;
+        width: 50%;
+        height: 6px;
+        border-radius: 50px;
+        background: linear-gradient(264deg, orange -5.09%, purple 106.28%);
         display: none;
     }
     
     .services-title h1{
-        font-size: 40px;
+        position: auto;
+        font-size: 30px;
     }
-<<<<<<< HEAD
     .aSkills img{
-        width: 45%;
+        height: 70px;
+        width:70px; 
+         
+    }
+    .skills{
+        display: grid;
+        grid-column: auto;
     }
 }
-=======
-    
-}
->>>>>>> fe964b65e65c144e9057a082b341f18a59d4fe15
