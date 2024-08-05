@@ -20,7 +20,7 @@ const about =() =>{
                     I have both practical and theoretical knowledge. I am well prepared to start my career in web development 
                      or Software development. I spent a lot of my academic years coding mostly in Java and C++.</p> 
                    <p> I decided to expand my knowledge by taking on HTML, JavaScript, CSS and React. I am not yet done as I am looking forward 
-                    to also complete back end part as I already leant database management system which MySql and MongoDB.</p>
+                    to also complete back end part as I already leant database management system which are MySql and MongoDB.</p>
                 </div>
 {/*  <div className="skills">
                     <div className="aSkills"><p>JavaScript</p><hr style={{width: "50%"}} /></div>

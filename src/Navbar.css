@@ -7,7 +7,7 @@
     background-color: rgb(46, 42, 42);
     z-index: 1000;
     overflow-x: hidden;
-    gap: 30px;
+    gap: 29px;
     
 }
 .nav-menu{
@@ -62,7 +62,7 @@
 @media(max-width:768px){
     .navbar{
         margin: 20px 50px;
-        
+        gap: 25px;
         
     }
     .nav-connect{
@@ -71,13 +71,13 @@
     .nav-mob-open{
         display: block;
         position: fixed;
-        right: 70px;
+        right: 99px;
     }
     .nav-mob-close{
         display: block;
         position: relative;
-        top:30px;
-        left:290px;
+        top:5px;
+        left:140px;
         width: 30px;
     }
     .nav-menu{
@@ -87,7 +87,7 @@
         top:0;
         gap:30px;
         background-color: blueviolet;
-        width: 350px;
+        width: 298px;
         height: 100%;
         z-index: 2;
         transition: right 0.5s;
@@ -100,6 +100,6 @@
         gap:20px;
     }
     .navbar img{
-        padding:0px 20px;
+        padding:0px 42px;
     }
 }

@@ -19,7 +19,7 @@ const Footer =() =>{
          </div>
          <hr/>
          <div className="fBottom">
-            <p className="fBottom-left">&copy; 2024 Syanda Ngcobo. All rights Resrved.</p>
+            <p className="fBottom-left">&copy; 2024 Syanda Ngcobo. All rights Reserved.</p>
             <div className="fBottom-right">
                 <p>Term of Services</p>
                 <p>Privacy Police</p>

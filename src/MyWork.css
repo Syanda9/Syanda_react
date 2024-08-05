@@ -43,14 +43,14 @@
     }
     .work-title p{
         padding-top:0;
-        font-size: 18px;
+        font-size: 14px;
     }
     .container img{
-        width:155px;
-        padding-left: 0px;
+        width:140px;
+        padding-left: 37%;
     }
     #PIC{
-        height: 118px;
+        height: 112px;
     }
     
 }

@@ -110,7 +110,7 @@
     }
     .cTitle h1{
         padding: 0;
-        font-size: 35px;
+        font-size: 30px;
     }
     .cTitle img{
         width: 130px;
@@ -120,10 +120,10 @@
         flex-direction: column;
     }
     .cLeft h1{
-        font-size: 32px;
+        font-size: 30px;
     }
     .cLeft p{
-        font-size:18px;
+        font-size:15px;
     }
     .cDetails{
         gap: 20px;
@@ -132,14 +132,14 @@
         width: 25px;
     }
     .cRight label{
-        font-size: 20px;
+        font-size: 18px;
     }
     .cRight input{
         width:100%;
         font-size: 20px;
     }
     .cRight textarea{
-        width: 80%;
+        width: 75%;
         height: 190px;
         font-size: 20px;
     }
