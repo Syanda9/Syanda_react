@@ -73,12 +73,12 @@
         margin-bottom: 50px;
     }
     .Email{
-        width: 30%;
+        width:20%;
         height: 8px;
     }
     .subscribe{
         font-size: 14px;
-        padding: 7px 15px;
+        padding: 7px 5px;
     }
     .Email input{
         padding: 1px 15px;

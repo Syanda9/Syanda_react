@@ -8,7 +8,7 @@ import Cartoon from './assets/Cartoon.jpg'
 const Hero = () => {
     return (
     <div id="Home" className="hero">
-    <img src={dope} alt="My Icon" />
+    <img src={dope} alt="My Icon" id="PIC" />
     <img src={Cartoon} alt="" id="Sya" />
     <h1><span>Syanda Ngcobo</span></h1>
     <p>Front End Developer</p>

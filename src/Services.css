@@ -30,7 +30,7 @@
 .aSkills{
     display: flex;
     gap: 50px;
-    align-items:center;
+    align-items: center;
     transition:0.3s;
 }
 .aSkills p{
@@ -41,10 +41,11 @@
 .aSkills hr{
     outline: none;
     border: none;
-    width: 50%;
-    height: 8px;
+    width: 40%;
+    height: 10px;
     border-radius: 50px;
     background: linear-gradient(264deg, orange -5.09%, purple 106.28%);
+    
 }
 .aSkills:hover{
     transform: scale(1.05);
@@ -78,8 +79,9 @@
     }
     
     .services-title h1{
-        position: auto;
+        position: start;
         font-size: 30px;
+        
     }
     .aSkills img{
         height: 70px;

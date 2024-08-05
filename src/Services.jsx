@@ -17,32 +17,32 @@ const Service = () =>{
             </div>
             <div className="skills">
                 <div className="aSkills">
-                        <FontAwesomeIcon icon={faJsSquare} size="4x" /> 
-                        <hr style={{width: "50%"}} />
+                        <FontAwesomeIcon icon={faJsSquare} size="3x" /> 
+                        <hr style={{width: "25%"}} />
                     </div>
                    <div className="aSkills">
-                          <FontAwesomeIcon icon={faHtml5} size="4x" id="FO" /> 
-                          <hr style={{width: "60%"}} />
+                          <FontAwesomeIcon icon={faHtml5} size="3x" id="FO" /> 
+                          <hr style={{width: "30%"}} />
                     </div> 
                     <div className="aSkills">
-                         <FontAwesomeIcon icon={faCss3Alt} size="4x" id="FO" /> 
-                         <hr style={{width: "60%"}} />
+                         <FontAwesomeIcon icon={faCss3Alt} size="3x" id="FO" /> 
+                         <hr style={{width: "30%"}} />
                     </div>
                     <div className="aSkills">  
-                        <FontAwesomeIcon icon={faReact} size="4x" id="FO" /> 
-                         <hr style={{width: "60%"}} />
+                        <FontAwesomeIcon icon={faReact} size="3x" id="FO" /> 
+                         <hr style={{width: "30%"}} />
                     </div>
                     <div className="aSkills">
-                         <FontAwesomeIcon icon={faJava} size="4x" ID="FO"/> 
-                         <hr style={{width: "75%"}} />
+                         <FontAwesomeIcon icon={faJava} size="3x" ID="FO"/> 
+                         <hr style={{width: "40%"}} />
                     </div>
                     <div className="aSkills">
                         <img src={cplus} alt='' /> 
-                        <hr style={{width: "70%"}} />
+                        <hr style={{width: "35%"}} />
                     </div>
                     <div className="aSkills">
                         <img src={MySql} alt='' /> 
-                         <hr style={{width: "50%"}} />
+                         <hr style={{width: "25%"}} />
                     </div> 
             </div> 
          

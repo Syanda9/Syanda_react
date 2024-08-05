@@ -40,16 +40,16 @@ const Contacts = ()=>{
           <div className="cSection">
             <div className="cLeft">
               <h1>Let's talk</h1>
-              <p>I'm currently available to take any projects.</p>
+              <p id="PP">I'm currently available to take any projects.</p>
              <div className="cDetails">
              <div className="cD">
-                <FontAwesomeIcon icon={faEnvelope} size="2x" /><p>syandan083@gmail.com</p>
+                <FontAwesomeIcon icon={faEnvelope} size="1x" /><p>syandan083@gmail.com</p>
             </div>
             <div className="cD">
-                <FontAwesomeIcon icon={faPhone} size="2x" /><p>+27760892899</p>
+                <FontAwesomeIcon icon={faPhone} size="1x" /><p>+27760892899</p>
             </div>
             <div className="cD">
-                <FontAwesomeIcon icon={faMapMarkerAlt} size="2x" /><p>Scottsville, Pietermaritzburg, South Africa</p>
+                <FontAwesomeIcon icon={faMapMarkerAlt} size="1x" /><p>Scottsville, Pietermaritzburg, South Africa</p>
             </div>
          </div>
      </div>
