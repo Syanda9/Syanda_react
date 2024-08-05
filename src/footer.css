@@ -61,6 +61,7 @@
 @media(max-width:768px){
     .foter{
         margin: 50px 70px;
+        overflow-x: hidden;
     }
     .fTop{
         flex-direction: column;

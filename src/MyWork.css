@@ -40,17 +40,19 @@
     .work{
         padding-top: 100px;
         font-size: 14px;
+        overflow-x: hidden;
     }
     .work-title p{
         padding-top:0;
+        padding-right: 29%;
         font-size: 14px;
     }
     .container img{
-        width:140px;
-        padding-left: 37%;
+        width:130px;
+        padding-left: 4%;
     }
     #PIC{
-        height: 112px;
+        height: 100px;
     }
     
 }

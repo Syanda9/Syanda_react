@@ -61,6 +61,7 @@
 
     .aSkills{
         font-size: 20px;
+        padding-left: 30%;
     
     }
     .aSkills p{
@@ -83,10 +84,14 @@
     .aSkills img{
         height: 70px;
         width:70px; 
+        
          
     }
     .skills{
         display: grid;
         grid-column: auto;
+    }
+    .services{
+        overflow-x: hidden;
     }
 }

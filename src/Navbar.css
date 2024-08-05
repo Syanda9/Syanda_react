@@ -61,8 +61,10 @@
 
 @media(max-width:768px){
     .navbar{
+        position: fixed;
         margin: 20px 50px;
         gap: 25px;
+        overflow-x: hidden;
         
     }
     .nav-connect{
@@ -71,7 +73,7 @@
     .nav-mob-open{
         display: block;
         position: fixed;
-        right: 99px;
+        right: 65px;
     }
     .nav-mob-close{
         display: block;
@@ -100,6 +102,6 @@
         gap:20px;
     }
     .navbar img{
-        padding:0px 42px;
+        padding:0px 18px;
     }
 }
