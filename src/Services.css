@@ -1,5 +1,5 @@
  .services{
-    display: flex;
+    display: start;
     flex-direction: column;
     gap:80px;
     margin: 80px 170px;
@@ -71,7 +71,7 @@
     .aSkills hr{
         outline: none;
         border: none;
-        width: 50%;
+        width: 20%;
         height: 6px;
         border-radius: 50px;
         background: linear-gradient(264deg, orange -5.09%, purple 106.28%);
@@ -96,4 +96,5 @@
     .services{
         overflow-x: hidden;
     }
+    
 }

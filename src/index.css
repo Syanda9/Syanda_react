@@ -11,8 +11,4 @@ body{
 }
 
 
-@media(max-width:768){
-    body{
-      overflow-x:hidden;
-     }  
-}
+
