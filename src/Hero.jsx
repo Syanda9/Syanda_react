@@ -14,7 +14,7 @@ const Hero = () => {
     <p>Front End Developer</p>
     <div className="hero-action">
         <div className="hero-connect"><AnchorLink href="#Contact" id="OF">let's Connect</AnchorLink></div>
-        <div className="hero-resume"><a href='./assets/SyandaCv.pdf' download={SyandaCv} id="RE">Resume</a></div>
+        <div className="hero-resume"><a href={SyandaCv} download="SyandaCv.pdf" id="RE">Resume</a></div>
     </div>
     </div>
 
