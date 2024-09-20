@@ -58,7 +58,7 @@
     transform: scale(1.1);
     transition: 0.3s;
 }
-@media(max-width:768px){
+@media(max-width:1100px){
     .foter{
         margin: 50px 70px;
         overflow-x: hidden;
